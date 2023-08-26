@@ -3403,3 +3403,12 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2023.08.26-05.28.04:645][467]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 5.73 sec)
 [2023.08.26-05.28.04:649][467]AssetCheck: New page: Asset Save: Minimal_Default
 [2023.08.26-05.28.04:649][467]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.08.26-05.30.42:032][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.26-05.30.42:129][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.08.26-05.30.42:161][638]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default
+[2023.08.26-05.30.42:163][638]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Minimal_Default7360A298417714A45E8655AFC0054639.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.08.26-05.30.42:180][638]LogFileHelpers: All files are already saved.
+[2023.08.26-05.30.42:180][638]LogFileHelpers: Saving map 'Minimal_Default' took 0.106
+[2023.08.26-05.30.42:191][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 5.89 sec)
+[2023.08.26-05.30.42:195][638]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.08.26-05.30.42:195][638]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
