@@ -2023,3 +2023,14 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.27-08.40.20:100][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 2.88 sec)
 [2023.08.27-08.40.20:103][266]AssetCheck: New page: Asset Save: Minimal_Default
 [2023.08.27-08.40.20:103][266]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.08.27-08.42.35:931][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.08.27-08.42.36:090][119]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-08.42.36:193][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.08.27-08.42.36:225][119]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default
+[2023.08.27-08.42.36:227][119]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Minimal_DefaultFD9E78B1458EE8B22C43D981091E734E.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.08.27-08.42.36:241][119]LogFileHelpers: All files are already saved.
+[2023.08.27-08.42.36:241][119]LogFileHelpers: Saving map 'Minimal_Default' took 0.105
+[2023.08.27-08.42.36:251][119]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 3.04 sec)
+[2023.08.27-08.42.36:255][119]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.08.27-08.42.36:255][119]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.08.27-08.43.47:218][825]LogDerivedDataCache: C:/Users/mvnit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.173 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 770 files in 1289 folders with total size 25 MiB.
