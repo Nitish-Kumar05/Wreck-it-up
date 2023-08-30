@@ -1407,3 +1407,1113 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.30-08.03.57:563][852]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms
 [2023.08.30-08.03.57:568][852]AssetCheck: New page: Asset Save: MainMap
 [2023.08.30-08.03.57:568][852]LogContentValidation: Display: Validating /Script/Engine.World /Game/MainMap.MainMap
+[2023.08.30-08.11.09:958][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.08.30-08.11.10:129][661]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.30-08.11.10:172][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.30-08.11.10:236][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.08.30-08.11.10:298][661]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.08.30-08.11.10:299][661]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/MainMap8352E31C4EDED587100074AE2C0BF490.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/MainMap.umap'
+[2023.08.30-08.11.10:318][661]LogFileHelpers: Saving map 'MainMap' took 0.146
+[2023.08.30-08.11.10:330][661]LogFileHelpers: InternalPromptForCheckoutAndSave took 201 ms (total: 427 ms)
+[2023.08.30-08.11.10:332][661]AssetCheck: New page: Asset Save: MainMap
+[2023.08.30-08.11.10:332][661]LogContentValidation: Display: Validating /Script/Engine.World /Game/MainMap.MainMap
+[2023.08.30-08.13.40:166][315]LogEditorTransaction: Undo Add Node
+[2023.08.30-08.13.41:162][384]LogEditorTransaction: Undo Add Node
+[2023.08.30-08.18.57:535][591]BlueprintLog: New page: Compile MainMap
+[2023.08.30-08.18.57:596][591]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.08.30-08.21.09:754][275]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.08.30-08.21.09:756][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Autosaves/Game/MainMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.30-08.21.09:810][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MainMap_Auto2
+[2023.08.30-08.21.09:810][275]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/MainMap_Auto2BC8755384CF06C60C5FA1D97046BC1A4.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Autosaves/Game/MainMap_Auto2.umap'
+[2023.08.30-08.21.09:812][275]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Autosaves/Game/MainMap_Auto2.umap is in the /Temp path, will not scan.
+[2023.08.30-08.21.09:812][275]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/MainMap_Auto2 is in the /Temp path, will not scan.
+[2023.08.30-08.21.09:812][275]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/MainMap_Auto2 is in the /Temp path, will not scan.
+[2023.08.30-08.21.09:812][275]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainMap' took 0.080
+[2023.08.30-08.21.09:812][275]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.080
+[2023.08.30-08.25.52:552][768]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.30-08.25.52:563][768]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.30-08.25.52:564][768]LogPlayLevel: [PlayLevel] Compiling MainMap before play...
+[2023.08.30-08.25.52:731][768]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2023.08.30-08.25.52:733][768]LogPlayLevel: PlayLevel: Blueprint regeneration took 170 ms (1 blueprints)
+[2023.08.30-08.25.52:733][768]PIE: New page: PIE session: MainMap (30-Aug-2023, 7:25:52 pm)
+[2023.08.30-08.25.52:734][768]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.25.52:750][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015684s)
+[2023.08.30-08.25.52:750][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.015753s)
+[2023.08.30-08.25.52:770][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.08.30-08.25.52:771][768]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.25.52:771][768]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.25.52:772][768]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.25.52:773][768]LogPlayLevel: PIE: World Init took: (0.001633s)
+[2023.08.30-08.25.52:773][768]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.08.30-08.25.52:773][768]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.30-08.25.52:773][768]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.30-08.25.52:773][768]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.30-08.25.52:773][768]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.30-08.25.52:773][768]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.30-08.25.52:773][768]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.08.30-08.25.52:773][768]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.30-08.25.52:773][768]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.30-08.25.52:774][768]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.30-08.25.52:774][768]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.30-08.25.52:774][768]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.30-08.25.52:777][768]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.30-08.25.52:852][768]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.30-08.25.52:853][768]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.30-08.25.52:853][768]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.30-08.25.52:853][768]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.30-08.25.52:854][768]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.08.30-08.25.52:854][768]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.08.30-08.25.52:857][768]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.08.30-08.25.52:857][768]LogInit: FAudioDevice initialized with ID 4.
+[2023.08.30-08.25.52:857][768]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.08.30-08.25.52:857][768]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMap'.
+[2023.08.30-08.25.52:858][768]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.08.30-08.25.52:861][768]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.25.52:868][768]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-13.55.52
+[2023.08.30-08.25.52:868][768]LogWorld: Bringing up level for play took: 0.007251
+[2023.08.30-08.25.52:872][768]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.08.30-08.25.52:874][768]LogBlueprintUserMessages: [MainMap_C_2] Welcome to WreckItUp
+[2023.08.30-08.25.52:874][768]LogBlueprintUserMessages: [MainMap_C_2] Happy wrecking!!
+[2023.08.30-08.25.52:874][768]LogBlueprintUserMessages: [MainMap_C_2] 25
+[2023.08.30-08.25.52:874][768]PIE: Server logged in
+[2023.08.30-08.25.52:876][768]PIE: Play in editor total start time 0.313 seconds.
+[2023.08.30-08.25.57:125][ 36]LogBlueprintUserMessages: [MainMap_C_2] 24
+[2023.08.30-08.25.57:425][ 55]LogBlueprintUserMessages: [MainMap_C_2] 23
+[2023.08.30-08.25.58:975][153]LogBlueprintUserMessages: [MainMap_C_2] 22
+[2023.08.30-08.25.59:192][166]LogBlueprintUserMessages: [MainMap_C_2] 21
+[2023.08.30-08.25.59:407][179]LogBlueprintUserMessages: [MainMap_C_2] 20
+[2023.08.30-08.25.59:623][190]LogBlueprintUserMessages: [MainMap_C_2] 19
+[2023.08.30-08.26.01:483][304]LogBlueprintUserMessages: [MainMap_C_2] 18
+[2023.08.30-08.26.01:755][321]LogBlueprintUserMessages: [MainMap_C_2] 17
+[2023.08.30-08.26.02:019][337]LogBlueprintUserMessages: [MainMap_C_2] 16
+[2023.08.30-08.26.02:382][359]LogBlueprintUserMessages: [MainMap_C_2] 15
+[2023.08.30-08.26.02:756][382]LogBlueprintUserMessages: [MainMap_C_2] 14
+[2023.08.30-08.26.03:052][400]LogBlueprintUserMessages: [MainMap_C_2] 13
+[2023.08.30-08.26.03:511][428]LogBlueprintUserMessages: [MainMap_C_2] 12
+[2023.08.30-08.26.04:432][484]LogBlueprintUserMessages: [MainMap_C_2] 11
+[2023.08.30-08.26.04:687][499]LogBlueprintUserMessages: [MainMap_C_2] 10
+[2023.08.30-08.26.04:939][514]LogBlueprintUserMessages: [MainMap_C_2] 9
+[2023.08.30-08.26.05:257][534]LogBlueprintUserMessages: [MainMap_C_2] 8
+[2023.08.30-08.26.05:601][556]LogBlueprintUserMessages: [MainMap_C_2] 7
+[2023.08.30-08.26.06:026][583]LogBlueprintUserMessages: [MainMap_C_2] 6
+[2023.08.30-08.26.06:338][603]LogBlueprintUserMessages: [MainMap_C_2] 5
+[2023.08.30-08.26.06:654][623]LogBlueprintUserMessages: [MainMap_C_2] 4
+[2023.08.30-08.26.06:972][643]LogBlueprintUserMessages: [MainMap_C_2] 3
+[2023.08.30-08.26.08:129][716]LogBlueprintUserMessages: [MainMap_C_2] 2
+[2023.08.30-08.26.08:443][736]LogBlueprintUserMessages: [MainMap_C_2] 1
+[2023.08.30-08.26.08:713][753]LogBlueprintUserMessages: [MainMap_C_2] 0
+[2023.08.30-08.26.08:949][768]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.09:214][783]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.11:734][944]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.12:068][965]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.12:923][ 20]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.13:508][ 58]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.13:960][ 87]LogNet: Browse: /Game/MainMap
+[2023.08.30-08.26.14:005][ 87]LogLoad: LoadMap: /Game/MainMap
+[2023.08.30-08.26.14:005][ 87]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.26.14:008][ 87]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.26.14:011][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.26.14:030][ 87]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.30-08.26.14:036][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.08.30-08.26.14:060][ 87]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.26.14:075][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014840s)
+[2023.08.30-08.26.14:075][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.014925s)
+[2023.08.30-08.26.14:075][ 87]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMap'.
+[2023.08.30-08.26.14:075][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.26.14:075][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.26.14:076][ 87]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.26.14:076][ 87]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2023.08.30-08.26.14:076][ 87]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.26.14:121][ 87]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-13.56.14
+[2023.08.30-08.26.14:121][ 87]LogWorld: Bringing up level for play took: 0.045321
+[2023.08.30-08.26.14:123][ 87]LogBlueprintUserMessages: [MainMap_C_2] Welcome to WreckItUp
+[2023.08.30-08.26.14:123][ 87]LogBlueprintUserMessages: [MainMap_C_2] Happy wrecking!!
+[2023.08.30-08.26.14:123][ 87]LogBlueprintUserMessages: [MainMap_C_2] 25
+[2023.08.30-08.26.14:132][ 87]LogLoad: Took 0.127590 seconds to LoadMap(/Game/UEDPIE_0_MainMap)
+[2023.08.30-08.26.14:176][ 88]LogBlueprintUserMessages: [MainMap_C_2] 24
+[2023.08.30-08.26.15:942][194]LogBlueprintUserMessages: [MainMap_C_2] 23
+[2023.08.30-08.26.16:256][213]LogBlueprintUserMessages: [MainMap_C_2] 22
+[2023.08.30-08.26.16:726][243]LogBlueprintUserMessages: [MainMap_C_2] 21
+[2023.08.30-08.26.17:441][288]LogBlueprintUserMessages: [MainMap_C_2] 20
+[2023.08.30-08.26.17:647][301]LogBlueprintUserMessages: [MainMap_C_2] 19
+[2023.08.30-08.26.18:938][376]LogBlueprintUserMessages: [MainMap_C_2] 18
+[2023.08.30-08.26.19:155][388]LogBlueprintUserMessages: [MainMap_C_2] 17
+[2023.08.30-08.26.19:379][400]LogBlueprintUserMessages: [MainMap_C_2] 16
+[2023.08.30-08.26.19:607][412]LogBlueprintUserMessages: [MainMap_C_2] 15
+[2023.08.30-08.26.19:827][424]LogBlueprintUserMessages: [MainMap_C_2] 14
+[2023.08.30-08.26.20:053][436]LogBlueprintUserMessages: [MainMap_C_2] 13
+[2023.08.30-08.26.20:638][468]LogBlueprintUserMessages: [MainMap_C_2] 12
+[2023.08.30-08.26.20:899][482]LogBlueprintUserMessages: [MainMap_C_2] 11
+[2023.08.30-08.26.21:173][496]LogBlueprintUserMessages: [MainMap_C_2] 10
+[2023.08.30-08.26.22:972][590]LogBlueprintUserMessages: [MainMap_C_2] 9
+[2023.08.30-08.26.23:229][603]LogBlueprintUserMessages: [MainMap_C_2] 8
+[2023.08.30-08.26.25:572][739]LogBlueprintUserMessages: [MainMap_C_2] 7
+[2023.08.30-08.26.25:923][757]LogBlueprintUserMessages: [MainMap_C_2] 6
+[2023.08.30-08.26.26:268][775]LogBlueprintUserMessages: [MainMap_C_2] 5
+[2023.08.30-08.26.26:517][788]LogBlueprintUserMessages: [MainMap_C_2] 4
+[2023.08.30-08.26.26:715][798]LogBlueprintUserMessages: [MainMap_C_2] 3
+[2023.08.30-08.26.26:947][810]LogBlueprintUserMessages: [MainMap_C_2] 2
+[2023.08.30-08.26.27:169][821]LogBlueprintUserMessages: [MainMap_C_2] 1
+[2023.08.30-08.26.27:405][833]LogBlueprintUserMessages: [MainMap_C_2] 0
+[2023.08.30-08.26.27:692][846]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.27:999][859]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.28:263][870]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.28:531][883]LogBlueprintUserMessages: [MainMap_C_2] You are out of ammo, wait 5 sec...
+[2023.08.30-08.26.32:701][ 89]LogNet: Browse: /Game/MainMap
+[2023.08.30-08.26.32:701][ 89]LogLoad: LoadMap: /Game/MainMap
+[2023.08.30-08.26.32:701][ 89]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.26.32:702][ 89]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.26.32:703][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.26.32:765][ 89]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.30-08.26.32:771][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.08.30-08.26.32:774][ 89]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.26.32:805][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030996s)
+[2023.08.30-08.26.32:805][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.031101s)
+[2023.08.30-08.26.32:805][ 89]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMap'.
+[2023.08.30-08.26.32:805][ 89]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.26.32:806][ 89]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.26.32:806][ 89]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.26.32:807][ 89]LogPlayLevel: PIE: World Init took: (0.001958s)
+[2023.08.30-08.26.32:807][ 89]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.26.32:815][ 89]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-13.56.32
+[2023.08.30-08.26.32:816][ 89]LogWorld: Bringing up level for play took: 0.007663
+[2023.08.30-08.26.32:819][ 89]LogBlueprintUserMessages: [MainMap_C_2] Welcome to WreckItUp
+[2023.08.30-08.26.32:819][ 89]LogBlueprintUserMessages: [MainMap_C_2] Happy wrecking!!
+[2023.08.30-08.26.32:819][ 89]LogBlueprintUserMessages: [MainMap_C_2] 25
+[2023.08.30-08.26.32:819][ 89]LogLoad: Took 0.117790 seconds to LoadMap(/Game/UEDPIE_0_MainMap)
+[2023.08.30-08.26.35:599][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.26.35:599][212]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.26.35:599][212]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.26.35:601][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.26.35:607][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.30-08.26.35:618][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.26.35:646][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.26.35:646][212]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.08.30-08.26.35:646][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.30-08.26.35:649][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.30-08.26.35:668][212]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2023.08.30-08.26.35:746][213]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.08.30-08.27.58:171][ 56]BlueprintLog: New page: Collapse to Function
+[2023.08.30-08.31.08:425][825]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.30-08.31.08:433][825]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.30-08.31.08:435][825]LogPlayLevel: [PlayLevel] Compiling MainMap before play...
+[2023.08.30-08.31.08:494][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.08.30-08.31.08:498][825]LogPlayLevel: PlayLevel: Blueprint regeneration took 64 ms (1 blueprints)
+[2023.08.30-08.31.08:498][825]PIE: New page: PIE session: MainMap (30-Aug-2023, 7:31:08 pm)
+[2023.08.30-08.31.08:498][825]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.31.08:514][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015351s)
+[2023.08.30-08.31.08:514][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.015401s)
+[2023.08.30-08.31.08:533][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.08.30-08.31.08:534][825]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.31.08:534][825]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.31.08:535][825]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.31.08:535][825]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2023.08.30-08.31.08:536][825]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.08.30-08.31.08:536][825]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.30-08.31.08:536][825]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.30-08.31.08:536][825]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.30-08.31.08:536][825]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.30-08.31.08:536][825]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.30-08.31.08:536][825]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.08.30-08.31.08:536][825]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.30-08.31.08:536][825]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.30-08.31.08:536][825]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.30-08.31.08:536][825]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.30-08.31.08:536][825]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.30-08.31.08:539][825]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.30-08.31.08:612][825]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.30-08.31.08:612][825]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.30-08.31.08:612][825]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.30-08.31.08:612][825]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.30-08.31.08:613][825]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.08.30-08.31.08:613][825]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.08.30-08.31.08:616][825]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.08.30-08.31.08:616][825]LogInit: FAudioDevice initialized with ID 5.
+[2023.08.30-08.31.08:616][825]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.08.30-08.31.08:616][825]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainMap'.
+[2023.08.30-08.31.08:616][825]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.08.30-08.31.08:696][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.31.08:697][825]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.31.08:704][825]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.01.08
+[2023.08.30-08.31.08:706][825]LogWorld: Bringing up level for play took: 0.007965
+[2023.08.30-08.31.08:709][825]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.08.30-08.31.08:711][825]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.31.08:712][825]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.31.08:712][825]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.31.08:714][825]PIE: Server logged in
+[2023.08.30-08.31.08:716][825]PIE: Play in editor total start time 0.282 seconds.
+[2023.08.30-08.31.08:781][825]LogViewport: Scene viewport resized to 1314x890, mode Windowed.
+[2023.08.30-08.31.10:373][889]LogViewport: Scene viewport resized to 1920x977, mode Windowed.
+[2023.08.30-08.31.13:823][ 32]LogBlueprintUserMessages: [MainMap_C_3] 24
+[2023.08.30-08.31.15:712][112]LogBlueprintUserMessages: [MainMap_C_3] 23
+[2023.08.30-08.31.16:063][127]LogBlueprintUserMessages: [MainMap_C_3] 22
+[2023.08.30-08.31.18:165][216]LogBlueprintUserMessages: [MainMap_C_3] 21
+[2023.08.30-08.31.18:422][227]LogBlueprintUserMessages: [MainMap_C_3] 20
+[2023.08.30-08.31.19:014][252]LogBlueprintUserMessages: [MainMap_C_3] 19
+[2023.08.30-08.31.21:234][346]LogBlueprintUserMessages: [MainMap_C_3] 18
+[2023.08.30-08.31.21:671][365]LogBlueprintUserMessages: [MainMap_C_3] 17
+[2023.08.30-08.31.23:087][424]LogBlueprintUserMessages: [MainMap_C_3] 16
+[2023.08.30-08.31.23:919][459]LogBlueprintUserMessages: [MainMap_C_3] 15
+[2023.08.30-08.31.24:894][500]LogBlueprintUserMessages: [MainMap_C_3] 14
+[2023.08.30-08.31.25:646][532]LogBlueprintUserMessages: [MainMap_C_3] 13
+[2023.08.30-08.31.26:576][572]LogBlueprintUserMessages: [MainMap_C_3] 12
+[2023.08.30-08.31.27:798][624]LogBlueprintUserMessages: [MainMap_C_3] 11
+[2023.08.30-08.31.32:818][839]LogBlueprintUserMessages: [MainMap_C_3] 10
+[2023.08.30-08.31.33:131][852]LogBlueprintUserMessages: [MainMap_C_3] 9
+[2023.08.30-08.31.33:758][875]LogBlueprintUserMessages: [MainMap_C_3] 8
+[2023.08.30-08.31.34:040][887]LogBlueprintUserMessages: [MainMap_C_3] 7
+[2023.08.30-08.31.35:589][951]LogBlueprintUserMessages: [MainMap_C_3] 6
+[2023.08.30-08.31.35:918][965]LogBlueprintUserMessages: [MainMap_C_3] 5
+[2023.08.30-08.31.36:406][985]LogBlueprintUserMessages: [MainMap_C_3] 4
+[2023.08.30-08.31.37:095][ 14]LogBlueprintUserMessages: [MainMap_C_3] 3
+[2023.08.30-08.31.37:543][ 32]LogBlueprintUserMessages: [MainMap_C_3] 2
+[2023.08.30-08.31.38:301][ 62]LogBlueprintUserMessages: [MainMap_C_3] 1
+[2023.08.30-08.31.38:553][ 72]LogBlueprintUserMessages: [MainMap_C_3] 0
+[2023.08.30-08.31.38:807][ 82]LogBlueprintUserMessages: [MainMap_C_3] You are out of ammo, wait 5 sec...
+[2023.08.30-08.31.39:092][ 91]LogBlueprintUserMessages: [MainMap_C_3] You are out of ammo, wait 5 sec...
+[2023.08.30-08.31.40:254][135]LogBlueprintUserMessages: [MainMap_C_3] You are out of ammo, wait 5 sec...
+[2023.08.30-08.31.43:814][281]LogNet: Browse: /Game/MainMap
+[2023.08.30-08.31.43:814][281]LogLoad: LoadMap: /Game/MainMap
+[2023.08.30-08.31.43:814][281]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.31.43:815][281]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.31.43:816][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.31.43:843][281]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.30-08.31.43:848][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.08.30-08.31.43:851][281]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.31.43:875][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023995s)
+[2023.08.30-08.31.43:875][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.024078s)
+[2023.08.30-08.31.43:875][281]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainMap'.
+[2023.08.30-08.31.43:875][281]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.31.43:875][281]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.31.43:876][281]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.31.43:877][281]LogPlayLevel: PIE: World Init took: (0.001949s)
+[2023.08.30-08.31.43:877][281]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.31.43:883][281]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.01.43
+[2023.08.30-08.31.43:883][281]LogWorld: Bringing up level for play took: 0.006463
+[2023.08.30-08.31.43:886][281]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.31.43:886][281]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.31.43:886][281]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.31.43:886][281]LogLoad: Took 0.072019 seconds to LoadMap(/Game/UEDPIE_0_MainMap)
+[2023.08.30-08.31.47:747][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.31.47:747][429]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.31.47:748][429]LogSlate: Window 'WreckItUp Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.08.30-08.31.47:778][429]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.31.47:780][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.31.47:784][429]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.30-08.31.47:794][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.31.47:820][429]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.08.30-08.31.47:820][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.08.30-08.31.47:823][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.08.30-08.31.47:840][429]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.08.30-08.31.47:875][430]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.08.30-08.31.54:762][972]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.08.30-08.32.01:141][291]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.32.10:324][697]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: ================================================
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: Total job queries 34, among them cache hits 13 (38.24%)
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: Tracking 21 distinct input hashes that result in 12 distinct outputs (57.14%)
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: RAM used: 430.76 KiB of 819.20 MiB budget. Usage: 0.05%
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.08.30-08.32.16:892][996]LogShaderCompilers: Display: ================================================
+[2023.08.30-08.32.17:252][997]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel04.SM_Barrel04
+[2023.08.30-08.32.17:268][997]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel04.SM_Barrel04
+[2023.08.30-08.32.17:298][997]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel04.SM_Barrel04 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_0
+[2023.08.30-08.32.18:507][ 52]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel04.SM_Barrel04
+[2023.08.30-08.32.18:507][ 52]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel04.SM_Barrel04
+[2023.08.30-08.32.18:510][ 52]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel04.SM_Barrel04 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_3
+[2023.08.30-08.32.51:058][438]LogSlate: Window 'Select Path' being destroyed
+[2023.08.30-08.32.52:826][438]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2023.08.30-08.32.52:985][438]LogActorComponent: UnregisterComponent: (/Game/BP_TarpBarell.Default__BP_TarpBarell_C:StaticMeshComponent0) Not registered. Aborting.
+[2023.08.30-08.32.53:086][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2023.08.30-08.32.53:180][438]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_TarpBarell.BP_TarpBarell
+[2023.08.30-08.32.53:180][438]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.32.53:180][438]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.32.54:163][438]LogViewport: Scene viewport resized to 742x362, mode Windowed.
+[2023.08.30-08.32.55:054][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.32.57:086][497]LogViewport: Scene viewport resized to 739x385, mode Windowed.
+[2023.08.30-08.32.57:167][499]LogViewport: Scene viewport resized to 464x189, mode Windowed.
+[2023.08.30-08.32.57:391][506]LogViewport: Scene viewport resized to 1078x618, mode Windowed.
+[2023.08.30-08.32.58:670][618]LogSlate: Window 'BP_TarpBarell' being destroyed
+[2023.08.30-08.33.03:571][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2023.08.30-08.33.03:575][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Autosaves/Game/MainMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.08.30-08.33.03:647][ 29]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MainMap_Auto3
+[2023.08.30-08.33.03:648][ 29]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/MainMap_Auto3CD57630742D0715F75A80383A102A0A9.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Autosaves/Game/MainMap_Auto3.umap'
+[2023.08.30-08.33.03:650][ 29]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Autosaves/Game/MainMap_Auto3.umap is in the /Temp path, will not scan.
+[2023.08.30-08.33.03:650][ 29]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/MainMap_Auto3 is in the /Temp path, will not scan.
+[2023.08.30-08.33.03:650][ 29]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/MainMap_Auto3 is in the /Temp path, will not scan.
+[2023.08.30-08.33.03:650][ 29]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainMap' took 0.102
+[2023.08.30-08.33.03:650][ 29]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.102
+[2023.08.30-08.33.03:652][ 29]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_TarpBarell] ([2] browsable assets)...
+[2023.08.30-08.33.03:817][ 29]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_TarpBarell.BP_TarpBarell]
+[2023.08.30-08.33.03:818][ 29]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.33.03:847][ 29]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/BP_TarpBarell.BP_TarpBarell_C]
+[2023.08.30-08.33.03:847][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_TarpBarell]
+[2023.08.30-08.33.03:847][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_TarpBarell" FILE="../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Autosaves/Game/BP_TarpBarell_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.08.30-08.33.03:876][ 29]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_TarpBarell_Auto3
+[2023.08.30-08.33.03:876][ 29]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/BP_TarpBarell_Auto3DD3D97B042F4A767CF27F28DBF51488B.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/Autosaves/Game/BP_TarpBarell_Auto3.uasset'
+[2023.08.30-08.33.03:877][ 29]LogFileHelpers: Auto-saving content packages took 0.227
+[2023.08.30-08.34.03:290][483]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel04.SM_Barrel04
+[2023.08.30-08.34.03:583][483]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.34.03:583][483]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.34.04:004][483]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2023.08.30-08.34.05:291][483]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.08.30-08.34.05:308][483]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 2.017116s (0.017116s overbudget)
+[2023.08.30-08.34.05:594][483]LogViewport: Scene viewport resized to 1328x822, mode Windowed.
+[2023.08.30-08.34.28:550][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.08.30-08.34.28:852][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.30-08.34.28:908][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.30-08.34.29:016][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.08.30-08.34.29:106][ 26]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.08.30-08.34.29:107][ 26]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/MainMap9AAB4CE34D11A4A88EE943A947B70ED0.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/MainMap.umap'
+[2023.08.30-08.34.29:153][ 26]LogFileHelpers: Saving map 'MainMap' took 0.246
+[2023.08.30-08.34.29:330][ 26]LogSavePackage: Moving output files for package: /Game/IndustryPropsPack6/Meshes/SM_Barrel04
+[2023.08.30-08.34.29:333][ 26]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/SM_Barrel04C5BBB86E40810C04B723819BA5A867F7.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/IndustryPropsPack6/Meshes/SM_Barrel04.uasset'
+[2023.08.30-08.34.29:355][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_TarpBarell" FILE="../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/BP_TarpBarell.uasset" SILENT=true
+[2023.08.30-08.34.29:362][ 26]LogSavePackage: Moving output files for package: /Game/BP_TarpBarell
+[2023.08.30-08.34.29:362][ 26]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/BP_TarpBarellF50C8E1C4979CA92D47B1DBF6D2DA009.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/BP_TarpBarell.uasset'
+[2023.08.30-08.34.29:754][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave took 901 ms (total: 1.32 sec)
+[2023.08.30-08.34.29:788][ 26]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.30-08.34.29:788][ 26]LogContentValidation: Display: Validating /Script/Engine.World /Game/MainMap.MainMap
+[2023.08.30-08.34.29:788][ 26]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Barrel04.SM_Barrel04
+[2023.08.30-08.34.29:788][ 26]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_TarpBarell.BP_TarpBarell
+[2023.08.30-08.34.32:181][183]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.34.32:181][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.34.33:547][257]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.34.33:547][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.35.16:337][ 85]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.08.30-08.35.22:625][352]Cmd: POLY SELECT MATCHING TEXTURE
+[2023.08.30-08.36.10:633][741]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/BP_Barrel_Blueprint.BP_Barrel_Blueprint_C
+[2023.08.30-08.36.10:633][741]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/BP_Barrel_Blueprint.BP_Barrel_Blueprint_C
+[2023.08.30-08.36.10:634][741]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/BP_Barrel_Blueprint.BP_Barrel_Blueprint as actor: BP_Barrel_Blueprint_C /Game/MainMap.MainMap:PersistentLevel.BP_Barrel_Blueprint_C_32
+[2023.08.30-08.36.10:635][741]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/BP_Barrel_Blueprint.BP_Barrel_Blueprint as actor: BP_Barrel_Blueprint_C /Game/MainMap.MainMap:PersistentLevel.BP_Barrel_Blueprint_C_32
+[2023.08.30-08.36.13:593][893]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/BP_Barrel_Blueprint.BP_Barrel_Blueprint_C
+[2023.08.30-08.36.13:593][893]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/BP_Barrel_Blueprint.BP_Barrel_Blueprint_C
+[2023.08.30-08.36.13:596][893]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/BP_Barrel_Blueprint.BP_Barrel_Blueprint as actor: BP_Barrel_Blueprint_C /Game/MainMap.MainMap:PersistentLevel.BP_Barrel_Blueprint_C_52
+[2023.08.30-08.36.13:596][893]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/BP_Barrel_Blueprint.BP_Barrel_Blueprint as actor: BP_Barrel_Blueprint_C /Game/MainMap.MainMap:PersistentLevel.BP_Barrel_Blueprint_C_52
+[2023.08.30-08.36.15:106][974]Cmd: DELETE
+[2023.08.30-08.36.15:107][974]Cmd: ACTOR DELETE
+[2023.08.30-08.36.15:565][974]LogEditorActor: Deleted Actor: BP_Barrel_Blueprint_C
+[2023.08.30-08.36.15:665][974]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.08.30-08.36.15:675][974]LogEditorActor: Deleted 1 Actors (0.172 secs)
+[2023.08.30-08.38.02:905][833]Cmd: DELETE
+[2023.08.30-08.38.02:905][833]Cmd: ACTOR DELETE
+[2023.08.30-08.38.02:911][833]LogEditorActor: Deleted Actor: BP_Barrel_Blueprint_C
+[2023.08.30-08.38.02:948][833]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2023.08.30-08.38.02:957][833]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2023.08.30-08.38.40:817][655]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.30-08.38.40:825][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.30-08.38.40:825][655]PIE: New page: PIE session: MainMap (30-Aug-2023, 7:38:40 pm)
+[2023.08.30-08.38.40:826][655]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.38.40:864][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038102s)
+[2023.08.30-08.38.40:864][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.038182s)
+[2023.08.30-08.38.40:892][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.08.30-08.38.40:899][655]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.38.40:899][655]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.38.40:900][655]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.38.40:900][655]LogPlayLevel: PIE: World Init took: (0.001849s)
+[2023.08.30-08.38.40:900][655]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.08.30-08.38.40:900][655]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.30-08.38.40:900][655]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.30-08.38.40:900][655]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.30-08.38.40:900][655]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.30-08.38.40:900][655]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.30-08.38.40:900][655]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.08.30-08.38.40:901][655]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.30-08.38.40:901][655]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.30-08.38.40:901][655]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.30-08.38.40:901][655]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.30-08.38.40:901][655]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.30-08.38.40:905][655]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.30-08.38.40:994][655]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.30-08.38.40:994][655]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.30-08.38.40:994][655]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.30-08.38.40:994][655]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.30-08.38.40:996][655]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.08.30-08.38.40:996][655]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.08.30-08.38.40:999][655]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.08.30-08.38.40:999][655]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.08.30-08.38.40:999][655]LogInit: FAudioDevice initialized with ID 6.
+[2023.08.30-08.38.40:999][655]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainMap'.
+[2023.08.30-08.38.40:999][655]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.08.30-08.38.41:003][655]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.38.41:010][655]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.08.41
+[2023.08.30-08.38.41:012][655]LogWorld: Bringing up level for play took: 0.008692
+[2023.08.30-08.38.41:015][655]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.08.30-08.38.41:017][655]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.38.41:017][655]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.38.41:017][655]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.38.41:017][655]PIE: Server logged in
+[2023.08.30-08.38.41:018][655]PIE: Play in editor total start time 0.193 seconds.
+[2023.08.30-08.38.46:401][914]LogBlueprintUserMessages: [MainMap_C_3] 24
+[2023.08.30-08.38.46:653][926]LogBlueprintUserMessages: [MainMap_C_3] 23
+[2023.08.30-08.38.46:871][937]LogBlueprintUserMessages: [MainMap_C_3] 22
+[2023.08.30-08.38.47:125][950]LogBlueprintUserMessages: [MainMap_C_3] 21
+[2023.08.30-08.38.47:353][962]LogBlueprintUserMessages: [MainMap_C_3] 20
+[2023.08.30-08.38.47:580][974]LogBlueprintUserMessages: [MainMap_C_3] 19
+[2023.08.30-08.38.47:788][985]LogBlueprintUserMessages: [MainMap_C_3] 18
+[2023.08.30-08.38.48:017][997]LogBlueprintUserMessages: [MainMap_C_3] 17
+[2023.08.30-08.38.48:269][ 10]LogBlueprintUserMessages: [MainMap_C_3] 16
+[2023.08.30-08.38.49:144][ 55]LogBlueprintUserMessages: [MainMap_C_3] 15
+[2023.08.30-08.38.49:379][ 67]LogBlueprintUserMessages: [MainMap_C_3] 14
+[2023.08.30-08.38.49:627][ 81]LogBlueprintUserMessages: [MainMap_C_3] 13
+[2023.08.30-08.38.49:863][ 94]LogBlueprintUserMessages: [MainMap_C_3] 12
+[2023.08.30-08.38.50:075][105]LogBlueprintUserMessages: [MainMap_C_3] 11
+[2023.08.30-08.38.50:334][118]LogBlueprintUserMessages: [MainMap_C_3] 10
+[2023.08.30-08.38.50:563][130]LogBlueprintUserMessages: [MainMap_C_3] 9
+[2023.08.30-08.38.50:807][143]LogBlueprintUserMessages: [MainMap_C_3] 8
+[2023.08.30-08.38.51:037][155]LogBlueprintUserMessages: [MainMap_C_3] 7
+[2023.08.30-08.38.51:301][169]LogBlueprintUserMessages: [MainMap_C_3] 6
+[2023.08.30-08.38.51:511][179]LogBlueprintUserMessages: [MainMap_C_3] 5
+[2023.08.30-08.38.51:732][190]LogBlueprintUserMessages: [MainMap_C_3] 4
+[2023.08.30-08.38.51:958][200]LogBlueprintUserMessages: [MainMap_C_3] 3
+[2023.08.30-08.38.52:166][211]LogBlueprintUserMessages: [MainMap_C_3] 2
+[2023.08.30-08.38.52:393][222]LogBlueprintUserMessages: [MainMap_C_3] 1
+[2023.08.30-08.38.52:586][232]LogBlueprintUserMessages: [MainMap_C_3] 0
+[2023.08.30-08.38.52:788][243]LogBlueprintUserMessages: [MainMap_C_3] You are out of ammo, wait 5 sec...
+[2023.08.30-08.38.52:971][253]LogBlueprintUserMessages: [MainMap_C_3] You are out of ammo, wait 5 sec...
+[2023.08.30-08.38.57:814][497]LogNet: Browse: /Game/MainMap
+[2023.08.30-08.38.57:815][497]LogLoad: LoadMap: /Game/MainMap
+[2023.08.30-08.38.57:815][497]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.38.57:816][497]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.38.57:819][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.38.57:862][497]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.30-08.38.57:870][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2023.08.30-08.38.57:873][497]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.38.57:908][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033460s)
+[2023.08.30-08.38.57:908][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.033563s)
+[2023.08.30-08.38.57:908][497]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainMap'.
+[2023.08.30-08.38.57:908][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.38.57:908][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.38.57:909][497]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.38.57:910][497]LogPlayLevel: PIE: World Init took: (0.001852s)
+[2023.08.30-08.38.57:910][497]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.38.57:918][497]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.08.57
+[2023.08.30-08.38.57:919][497]LogWorld: Bringing up level for play took: 0.009340
+[2023.08.30-08.38.57:922][497]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.38.57:922][497]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.38.57:922][497]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.38.57:922][497]LogLoad: Took 0.107550 seconds to LoadMap(/Game/UEDPIE_0_MainMap)
+[2023.08.30-08.39.00:985][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.39.00:986][650]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.39.00:986][650]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.39.00:989][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.39.01:015][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.30-08.39.01:021][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.39.01:043][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.39.01:044][650]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.08.30-08.39.01:044][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.30-08.39.01:046][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.30-08.39.01:063][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.08.30-08.39.01:463][651]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.08.30-08.39.29:575][918]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Tarp02.SM_Tarp02
+[2023.08.30-08.39.29:575][918]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Tarp02.SM_Tarp02
+[2023.08.30-08.39.29:575][918]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Tarp02.SM_Tarp02 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_4
+[2023.08.30-08.39.31:167][988]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Tarp02.SM_Tarp02
+[2023.08.30-08.39.31:167][988]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Tarp02.SM_Tarp02
+[2023.08.30-08.39.31:170][988]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Tarp02.SM_Tarp02 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_5
+[2023.08.30-08.39.53:179][971]Cmd: SELECT NONE
+[2023.08.30-08.39.59:955][278]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08
+[2023.08.30-08.39.59:955][278]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08
+[2023.08.30-08.39.59:956][278]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_7
+[2023.08.30-08.39.59:973][278]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08) ...
+[2023.08.30-08.40.00:154][279]LogShaderCompilers: Display: ================================================
+[2023.08.30-08.40.00:155][279]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.30-08.40.00:155][279]LogShaderCompilers: Display: Total job queries 54, among them cache hits 14 (25.93%)
+[2023.08.30-08.40.00:155][279]LogShaderCompilers: Display: Tracking 40 distinct input hashes that result in 16 distinct outputs (40.00%)
+[2023.08.30-08.40.00:155][279]LogShaderCompilers: Display: RAM used: 814.02 KiB of 819.20 MiB budget. Usage: 0.10%
+[2023.08.30-08.40.00:155][279]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.30-08.40.00:155][279]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.08.30-08.40.00:155][279]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2023.08.30-08.40.00:155][279]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.08.30-08.40.00:155][279]LogShaderCompilers: Display: ================================================
+[2023.08.30-08.40.01:325][330]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08
+[2023.08.30-08.40.01:326][330]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08
+[2023.08.30-08.40.01:329][330]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_8
+[2023.08.30-08.40.04:401][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage07.SM_CartonGarbage07
+[2023.08.30-08.40.04:401][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage07.SM_CartonGarbage07
+[2023.08.30-08.40.04:402][461]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage07.SM_CartonGarbage07 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_9
+[2023.08.30-08.40.05:484][508]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage07.SM_CartonGarbage07
+[2023.08.30-08.40.05:484][508]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage07.SM_CartonGarbage07
+[2023.08.30-08.40.05:486][508]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage07.SM_CartonGarbage07 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_10
+[2023.08.30-08.40.07:474][585]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05
+[2023.08.30-08.40.07:474][585]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05
+[2023.08.30-08.40.07:474][585]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_11
+[2023.08.30-08.40.09:088][658]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05
+[2023.08.30-08.40.09:089][658]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05
+[2023.08.30-08.40.09:092][658]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_12
+[2023.08.30-08.40.11:198][733]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08
+[2023.08.30-08.40.11:198][733]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08
+[2023.08.30-08.40.11:198][733]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_13
+[2023.08.30-08.40.12:790][803]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08
+[2023.08.30-08.40.12:790][803]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08
+[2023.08.30-08.40.12:794][803]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08.SM_CartonGarbage08 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_14
+[2023.08.30-08.40.15:418][884]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper01.SM_Newspaper01
+[2023.08.30-08.40.15:418][884]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper01.SM_Newspaper01
+[2023.08.30-08.40.15:419][884]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper01.SM_Newspaper01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_15
+[2023.08.30-08.40.16:703][942]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper01.SM_Newspaper01
+[2023.08.30-08.40.16:703][942]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper01.SM_Newspaper01
+[2023.08.30-08.40.16:706][942]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper01.SM_Newspaper01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_16
+[2023.08.30-08.40.18:917][ 31]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.40.18:917][ 31]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.40.18:918][ 31]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_17
+[2023.08.30-08.40.20:027][ 78]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.40.20:027][ 78]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.40.20:031][ 78]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_18
+[2023.08.30-08.40.21:821][145]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper02.SM_Newspaper02
+[2023.08.30-08.40.21:821][145]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper02.SM_Newspaper02
+[2023.08.30-08.40.21:822][145]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper02.SM_Newspaper02 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_19
+[2023.08.30-08.40.23:209][203]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper02.SM_Newspaper02
+[2023.08.30-08.40.23:209][203]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper02.SM_Newspaper02
+[2023.08.30-08.40.23:215][203]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper02.SM_Newspaper02 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_20
+[2023.08.30-08.40.25:164][269]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01
+[2023.08.30-08.40.25:164][269]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01
+[2023.08.30-08.40.25:164][269]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_21
+[2023.08.30-08.40.26:327][314]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01
+[2023.08.30-08.40.26:327][314]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01
+[2023.08.30-08.40.26:331][314]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_22
+[2023.08.30-08.40.30:862][473]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage06.SM_CartonGarbage06
+[2023.08.30-08.40.30:863][473]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage06.SM_CartonGarbage06
+[2023.08.30-08.40.30:866][473]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage06.SM_CartonGarbage06 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_23
+[2023.08.30-08.40.32:132][478]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage06.SM_CartonGarbage06
+[2023.08.30-08.40.32:132][478]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage06.SM_CartonGarbage06
+[2023.08.30-08.40.32:157][478]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage06.SM_CartonGarbage06 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_24
+[2023.08.30-08.40.38:927][612]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonBox02.SM_CartonBox02
+[2023.08.30-08.40.38:927][612]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonBox02.SM_CartonBox02
+[2023.08.30-08.40.38:928][612]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonBox02.SM_CartonBox02 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_25
+[2023.08.30-08.40.39:860][659]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonBox02.SM_CartonBox02
+[2023.08.30-08.40.39:860][659]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonBox02.SM_CartonBox02
+[2023.08.30-08.40.39:863][659]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonBox02.SM_CartonBox02 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_26
+[2023.08.30-08.40.41:464][732]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.30-08.40.41:476][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.30-08.40.41:476][732]PIE: New page: PIE session: MainMap (30-Aug-2023, 7:40:41 pm)
+[2023.08.30-08.40.41:476][732]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.40.41:497][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021259s)
+[2023.08.30-08.40.41:497][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.021319s)
+[2023.08.30-08.40.41:519][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.08.30-08.40.41:528][732]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.40.41:528][732]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.40.41:528][732]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.40.41:529][732]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2023.08.30-08.40.41:529][732]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.08.30-08.40.41:529][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.30-08.40.41:529][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.30-08.40.41:529][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.30-08.40.41:529][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.30-08.40.41:529][732]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.30-08.40.41:529][732]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.08.30-08.40.41:529][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.30-08.40.41:529][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.30-08.40.41:530][732]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.30-08.40.41:530][732]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.30-08.40.41:530][732]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.30-08.40.41:533][732]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.30-08.40.41:605][732]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.30-08.40.41:605][732]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.30-08.40.41:605][732]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.30-08.40.41:605][732]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.30-08.40.41:607][732]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.08.30-08.40.41:607][732]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.08.30-08.40.41:609][732]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.08.30-08.40.41:610][732]LogInit: FAudioDevice initialized with ID 7.
+[2023.08.30-08.40.41:610][732]LogAudio: Display: Audio Device (ID: 7) registered with world 'MainMap'.
+[2023.08.30-08.40.41:610][732]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.08.30-08.40.41:610][732]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.08.30-08.40.41:613][732]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.40.41:621][732]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.10.41
+[2023.08.30-08.40.41:621][732]LogWorld: Bringing up level for play took: 0.008271
+[2023.08.30-08.40.41:624][732]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.08.30-08.40.41:626][732]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.40.41:626][732]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.40.41:626][732]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.40.41:626][732]PIE: Server logged in
+[2023.08.30-08.40.41:628][732]PIE: Play in editor total start time 0.152 seconds.
+[2023.08.30-08.40.45:932][942]LogBlueprintUserMessages: [MainMap_C_3] 24
+[2023.08.30-08.40.46:444][967]LogBlueprintUserMessages: [MainMap_C_3] 23
+[2023.08.30-08.40.48:086][ 48]LogBlueprintUserMessages: [MainMap_C_3] 22
+[2023.08.30-08.40.48:365][ 62]LogBlueprintUserMessages: [MainMap_C_3] 21
+[2023.08.30-08.40.48:739][ 80]LogBlueprintUserMessages: [MainMap_C_3] 20
+[2023.08.30-08.40.49:660][125]LogBlueprintUserMessages: [MainMap_C_3] 19
+[2023.08.30-08.40.50:658][174]LogBlueprintUserMessages: [MainMap_C_3] 18
+[2023.08.30-08.40.52:240][255]LogBlueprintUserMessages: [MainMap_C_3] 17
+[2023.08.30-08.40.52:542][271]LogBlueprintUserMessages: [MainMap_C_3] 16
+[2023.08.30-08.40.52:845][287]LogBlueprintUserMessages: [MainMap_C_3] 15
+[2023.08.30-08.40.53:634][328]LogBlueprintUserMessages: [MainMap_C_3] 14
+[2023.08.30-08.40.54:179][357]LogBlueprintUserMessages: [MainMap_C_3] 13
+[2023.08.30-08.40.57:204][508]LogBlueprintUserMessages: [MainMap_C_3] 12
+[2023.08.30-08.40.57:708][532]LogBlueprintUserMessages: [MainMap_C_3] 11
+[2023.08.30-08.40.58:062][550]LogBlueprintUserMessages: [MainMap_C_3] 10
+[2023.08.30-08.40.59:415][620]LogBlueprintUserMessages: [MainMap_C_3] 9
+[2023.08.30-08.40.59:766][637]LogBlueprintUserMessages: [MainMap_C_3] 8
+[2023.08.30-08.41.00:468][673]LogBlueprintUserMessages: [MainMap_C_3] 7
+[2023.08.30-08.41.02:168][757]LogBlueprintUserMessages: [MainMap_C_3] 6
+[2023.08.30-08.41.04:387][874]LogBlueprintUserMessages: [MainMap_C_3] 5
+[2023.08.30-08.41.04:974][902]LogBlueprintUserMessages: [MainMap_C_3] 4
+[2023.08.30-08.41.05:337][919]LogBlueprintUserMessages: [MainMap_C_3] 3
+[2023.08.30-08.41.06:160][957]LogBlueprintUserMessages: [MainMap_C_3] 2
+[2023.08.30-08.41.06:690][982]LogBlueprintUserMessages: [MainMap_C_3] 1
+[2023.08.30-08.41.08:071][ 50]LogBlueprintUserMessages: [MainMap_C_3] 0
+[2023.08.30-08.41.08:643][ 76]LogBlueprintUserMessages: [MainMap_C_3] You are out of ammo, wait 5 sec...
+[2023.08.30-08.41.13:664][326]LogNet: Browse: /Game/MainMap
+[2023.08.30-08.41.13:664][326]LogLoad: LoadMap: /Game/MainMap
+[2023.08.30-08.41.13:664][326]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.41.13:665][326]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.41.13:667][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.41.13:704][326]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.30-08.41.13:714][326]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.08.30-08.41.13:718][326]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.41.13:761][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042696s)
+[2023.08.30-08.41.13:761][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.042806s)
+[2023.08.30-08.41.13:761][326]LogAudio: Display: Audio Device (ID: 7) registered with world 'MainMap'.
+[2023.08.30-08.41.13:761][326]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.41.13:761][326]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.41.13:762][326]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.41.13:763][326]LogPlayLevel: PIE: World Init took: (0.001975s)
+[2023.08.30-08.41.13:763][326]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.41.13:771][326]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.11.13
+[2023.08.30-08.41.13:771][326]LogWorld: Bringing up level for play took: 0.008539
+[2023.08.30-08.41.13:773][326]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.41.13:774][326]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.41.13:774][326]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.41.13:774][326]LogLoad: Took 0.109535 seconds to LoadMap(/Game/UEDPIE_0_MainMap)
+[2023.08.30-08.41.19:205][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.41.19:205][595]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.41.19:205][595]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.41.19:208][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.41.19:242][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.30-08.41.19:251][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.41.19:276][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.41.19:277][595]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.08.30-08.41.19:277][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.30-08.41.19:279][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.30-08.41.19:296][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.08.30-08.41.19:486][596]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.08.30-08.41.25:468][897]Cmd: SELECT NONE
+[2023.08.30-08.41.32:519][212]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box02.SM_Box02
+[2023.08.30-08.41.32:519][212]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box02.SM_Box02
+[2023.08.30-08.41.32:520][212]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box02.SM_Box02 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_27
+[2023.08.30-08.41.34:368][284]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box02.SM_Box02
+[2023.08.30-08.41.34:368][284]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box02.SM_Box02
+[2023.08.30-08.41.34:371][284]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box02.SM_Box02 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_28
+[2023.08.30-08.41.38:102][344]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box01.SM_Box01
+[2023.08.30-08.41.38:103][344]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box01.SM_Box01
+[2023.08.30-08.41.38:106][344]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box01.SM_Box01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_29
+[2023.08.30-08.41.38:123][344]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/IndustryPropsPack6/Meshes/SM_Box01) ...
+[2023.08.30-08.41.40:524][357]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box01.SM_Box01
+[2023.08.30-08.41.40:525][357]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box01.SM_Box01
+[2023.08.30-08.41.40:550][357]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Box01.SM_Box01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_30
+[2023.08.30-08.41.52:350][814]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09
+[2023.08.30-08.41.52:352][814]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09
+[2023.08.30-08.41.52:352][814]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_31
+[2023.08.30-08.41.55:618][958]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09
+[2023.08.30-08.41.55:618][958]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09
+[2023.08.30-08.41.55:621][958]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_32
+[2023.08.30-08.41.59:841][123]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.41.59:841][123]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.41.59:842][123]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_33
+[2023.08.30-08.42.01:105][180]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.42.01:105][180]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.42.01:110][180]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_34
+[2023.08.30-08.42.05:481][336]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05
+[2023.08.30-08.42.05:481][336]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05
+[2023.08.30-08.42.05:482][336]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_35
+[2023.08.30-08.42.07:260][410]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05
+[2023.08.30-08.42.07:260][410]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05
+[2023.08.30-08.42.07:263][410]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05.SM_CartonGarbage05 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_36
+[2023.08.30-08.42.10:601][520]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_WaterTank01.SM_WaterTank01
+[2023.08.30-08.42.10:601][520]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_WaterTank01.SM_WaterTank01
+[2023.08.30-08.42.10:602][520]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_WaterTank01.SM_WaterTank01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_37
+[2023.08.30-08.42.13:539][636]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_WaterTank01.SM_WaterTank01
+[2023.08.30-08.42.13:539][636]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_WaterTank01.SM_WaterTank01
+[2023.08.30-08.42.13:543][636]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_WaterTank01.SM_WaterTank01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_38
+[2023.08.30-08.42.14:464][671]Cmd: SELECT NONE
+[2023.08.30-08.42.28:248][294]LogViewport: Scene viewport resized to 1248x845, mode Windowed.
+[2023.08.30-08.42.31:285][418]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.30-08.42.31:307][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.30-08.42.31:307][418]PIE: New page: PIE session: MainMap (30-Aug-2023, 7:42:31 pm)
+[2023.08.30-08.42.31:307][418]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.42.31:343][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035471s)
+[2023.08.30-08.42.31:343][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.035562s)
+[2023.08.30-08.42.31:380][418]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.08.30-08.42.31:389][418]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.42.31:390][418]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.42.31:390][418]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.42.31:391][418]LogPlayLevel: PIE: World Init took: (0.002478s)
+[2023.08.30-08.42.31:391][418]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.08.30-08.42.31:391][418]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.30-08.42.31:391][418]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.30-08.42.31:391][418]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.30-08.42.31:391][418]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.30-08.42.31:391][418]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.30-08.42.31:392][418]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.08.30-08.42.31:392][418]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.30-08.42.31:392][418]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.30-08.42.31:392][418]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.30-08.42.31:393][418]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.30-08.42.31:393][418]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.30-08.42.31:397][418]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.30-08.42.31:508][418]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.30-08.42.31:509][418]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.30-08.42.31:509][418]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.30-08.42.31:509][418]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.30-08.42.31:511][418]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.08.30-08.42.31:511][418]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.08.30-08.42.31:513][418]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.08.30-08.42.31:513][418]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.08.30-08.42.31:513][418]LogInit: FAudioDevice initialized with ID 8.
+[2023.08.30-08.42.31:513][418]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainMap'.
+[2023.08.30-08.42.31:513][418]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.08.30-08.42.31:517][418]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.42.31:537][418]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.12.31
+[2023.08.30-08.42.31:538][418]LogWorld: Bringing up level for play took: 0.019701
+[2023.08.30-08.42.31:542][418]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.08.30-08.42.31:544][418]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.42.31:544][418]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.42.31:544][418]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.42.31:544][418]PIE: Server logged in
+[2023.08.30-08.42.31:544][418]PIE: Play in editor total start time 0.238 seconds.
+[2023.08.30-08.42.34:063][527]LogBlueprintUserMessages: [MainMap_C_3] 24
+[2023.08.30-08.42.34:686][556]LogBlueprintUserMessages: [MainMap_C_3] 23
+[2023.08.30-08.42.36:328][632]LogBlueprintUserMessages: [MainMap_C_3] 22
+[2023.08.30-08.42.38:381][729]LogBlueprintUserMessages: [MainMap_C_3] 21
+[2023.08.30-08.42.40:937][847]LogBlueprintUserMessages: [MainMap_C_3] 20
+[2023.08.30-08.42.43:184][948]LogBlueprintUserMessages: [MainMap_C_3] 19
+[2023.08.30-08.42.43:579][965]LogBlueprintUserMessages: [MainMap_C_3] 18
+[2023.08.30-08.42.43:902][980]LogBlueprintUserMessages: [MainMap_C_3] 17
+[2023.08.30-08.42.44:546][ 11]LogBlueprintUserMessages: [MainMap_C_3] 16
+[2023.08.30-08.42.44:949][ 30]LogBlueprintUserMessages: [MainMap_C_3] 15
+[2023.08.30-08.42.45:218][ 42]LogBlueprintUserMessages: [MainMap_C_3] 14
+[2023.08.30-08.42.45:403][ 50]LogBlueprintUserMessages: [MainMap_C_3] 13
+[2023.08.30-08.42.45:961][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.42.45:961][ 74]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.42.45:961][ 74]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.42.45:964][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.42.45:969][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.30-08.42.45:978][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.42.46:006][ 74]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.30-08.42.46:006][ 74]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.08.30-08.42.46:006][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.30-08.42.46:008][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.30-08.42.46:020][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.42.46:026][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.08.30-08.42.46:082][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.08.30-08.43.01:351][378]LogViewport: Scene viewport resized to 1181x819, mode Windowed.
+[2023.08.30-08.43.03:622][394]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.30-08.43.03:709][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.30-08.43.03:709][394]PIE: New page: PIE session: MainMap (30-Aug-2023, 7:43:03 pm)
+[2023.08.30-08.43.03:709][394]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.43.03:898][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.192968s)
+[2023.08.30-08.43.03:898][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.193287s)
+[2023.08.30-08.43.04:052][394]LogUObjectHash: Compacting FUObjectHashTables data took  16.33ms
+[2023.08.30-08.43.04:059][394]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.43.04:060][394]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.43.04:063][394]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.43.04:066][394]LogPlayLevel: PIE: World Init took: (0.008011s)
+[2023.08.30-08.43.04:066][394]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.08.30-08.43.04:066][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.30-08.43.04:067][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.30-08.43.04:067][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.30-08.43.04:067][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.30-08.43.04:067][394]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.30-08.43.04:067][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.08.30-08.43.04:067][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.30-08.43.04:068][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.30-08.43.04:070][394]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.30-08.43.04:072][394]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.30-08.43.04:072][394]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.30-08.43.04:087][394]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.30-08.43.04:644][394]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.30-08.43.04:644][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.30-08.43.04:644][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.30-08.43.04:644][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.30-08.43.04:645][394]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.08.30-08.43.04:645][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.08.30-08.43.04:648][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.08.30-08.43.04:648][394]LogInit: FAudioDevice initialized with ID 9.
+[2023.08.30-08.43.04:649][394]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.08.30-08.43.04:649][394]LogAudio: Display: Audio Device (ID: 9) registered with world 'MainMap'.
+[2023.08.30-08.43.04:649][394]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.08.30-08.43.04:652][394]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.43.04:663][394]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.13.04
+[2023.08.30-08.43.04:664][394]LogWorld: Bringing up level for play took: 0.011092
+[2023.08.30-08.43.04:668][394]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.08.30-08.43.04:670][394]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.43.04:670][394]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.43.04:670][394]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.43.04:670][394]PIE: Server logged in
+[2023.08.30-08.43.04:671][394]PIE: Play in editor total start time 0.969 seconds.
+[2023.08.30-08.43.07:334][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.43.07:335][507]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.43.07:335][507]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.43.07:336][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.43.07:357][507]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.30-08.43.07:366][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.43.07:387][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.43.07:389][507]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.08.30-08.43.07:389][507]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.30-08.43.07:391][507]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.30-08.43.07:405][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.08.30-08.43.07:439][508]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.08.30-08.43.09:147][597]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.08.30-08.43.09:305][597]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.30-08.43.09:348][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.30-08.43.09:401][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.08.30-08.43.09:498][597]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.08.30-08.43.09:500][597]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/MainMap814A3B5044FED494495EEC939E9485BE.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/MainMap.umap'
+[2023.08.30-08.43.09:520][597]LogFileHelpers: Saving map 'MainMap' took 0.173
+[2023.08.30-08.43.09:532][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms (total: 1.55 sec)
+[2023.08.30-08.43.09:535][597]AssetCheck: New page: Asset Save: MainMap
+[2023.08.30-08.43.09:535][597]LogContentValidation: Display: Validating /Script/Engine.World /Game/MainMap.MainMap
+[2023.08.30-08.43.13:242][882]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.30-08.43.13:251][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.30-08.43.13:251][882]PIE: New page: PIE session: MainMap (30-Aug-2023, 7:43:13 pm)
+[2023.08.30-08.43.13:251][882]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.43.13:277][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025536s)
+[2023.08.30-08.43.13:277][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.025605s)
+[2023.08.30-08.43.13:301][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.08.30-08.43.13:302][882]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.43.13:302][882]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.43.13:303][882]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.43.13:303][882]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2023.08.30-08.43.13:304][882]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.08.30-08.43.13:304][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.30-08.43.13:304][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.30-08.43.13:304][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.30-08.43.13:304][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.30-08.43.13:304][882]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.30-08.43.13:304][882]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.08.30-08.43.13:304][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.30-08.43.13:304][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.30-08.43.13:304][882]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.30-08.43.13:304][882]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.30-08.43.13:304][882]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.30-08.43.13:306][882]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.30-08.43.13:372][882]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.30-08.43.13:372][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.30-08.43.13:372][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.30-08.43.13:372][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.30-08.43.13:373][882]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.08.30-08.43.13:373][882]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.08.30-08.43.13:377][882]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.08.30-08.43.13:377][882]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.08.30-08.43.13:377][882]LogInit: FAudioDevice initialized with ID 10.
+[2023.08.30-08.43.13:377][882]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainMap'.
+[2023.08.30-08.43.13:377][882]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.08.30-08.43.13:412][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.43.13:412][882]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.43.13:423][882]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.13.13
+[2023.08.30-08.43.13:424][882]LogWorld: Bringing up level for play took: 0.012020
+[2023.08.30-08.43.13:427][882]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.08.30-08.43.13:430][882]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.43.13:430][882]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.43.13:430][882]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.43.13:433][882]PIE: Server logged in
+[2023.08.30-08.43.13:435][882]PIE: Play in editor total start time 0.184 seconds.
+[2023.08.30-08.43.13:452][882]LogViewport: Scene viewport resized to 1912x970, mode Windowed.
+[2023.08.30-08.43.18:277][912]LogViewport: Scene viewport resized to 1920x977, mode Windowed.
+[2023.08.30-08.43.56:625][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.43.56:625][976]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.43.56:626][976]LogSlate: Window 'WreckItUp Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.08.30-08.43.56:651][976]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.43.56:654][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.43.56:658][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.30-08.43.56:668][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.43.56:712][976]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.30-08.43.56:712][976]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.08.30-08.43.56:712][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.08.30-08.43.56:715][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.08.30-08.43.56:734][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2023.08.30-08.43.56:778][977]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.08.30-08.44.08:245][599]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01
+[2023.08.30-08.44.08:245][599]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01
+[2023.08.30-08.44.08:245][599]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_39
+[2023.08.30-08.44.09:847][673]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01
+[2023.08.30-08.44.09:847][673]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01
+[2023.08.30-08.44.09:850][673]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Hose01.SM_Hose01 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_40
+[2023.08.30-08.44.12:539][773]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.44.12:539][773]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.44.12:539][773]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_41
+[2023.08.30-08.44.13:809][835]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.44.13:809][835]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03
+[2023.08.30-08.44.13:815][835]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Newspaper03.SM_Newspaper03 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_42
+[2023.08.30-08.44.17:774][  8]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage04.SM_CartonGarbage04
+[2023.08.30-08.44.17:775][  8]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage04.SM_CartonGarbage04
+[2023.08.30-08.44.17:775][  8]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage04.SM_CartonGarbage04 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_43
+[2023.08.30-08.44.20:059][117]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage04.SM_CartonGarbage04
+[2023.08.30-08.44.20:059][117]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage04.SM_CartonGarbage04
+[2023.08.30-08.44.20:063][117]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage04.SM_CartonGarbage04 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_44
+[2023.08.30-08.44.23:027][236]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09
+[2023.08.30-08.44.23:027][236]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09
+[2023.08.30-08.44.23:027][236]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_45
+[2023.08.30-08.44.26:462][408]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09
+[2023.08.30-08.44.26:462][408]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09
+[2023.08.30-08.44.26:468][408]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09.SM_CartonGarbage09 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_46
+[2023.08.30-08.44.30:770][599]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.30-08.44.30:782][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.30-08.44.30:782][599]PIE: New page: PIE session: MainMap (30-Aug-2023, 7:44:30 pm)
+[2023.08.30-08.44.30:782][599]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.08.30-08.44.30:810][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026948s)
+[2023.08.30-08.44.30:810][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.027017s)
+[2023.08.30-08.44.30:835][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.08.30-08.44.30:841][599]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.30-08.44.30:841][599]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.30-08.44.30:842][599]LogAIModule: Creating AISystem for world MainMap
+[2023.08.30-08.44.30:842][599]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2023.08.30-08.44.30:842][599]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.08.30-08.44.30:842][599]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.30-08.44.30:842][599]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.30-08.44.30:842][599]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.30-08.44.30:842][599]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.30-08.44.30:842][599]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.30-08.44.30:842][599]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.08.30-08.44.30:842][599]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.30-08.44.30:842][599]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.30-08.44.30:843][599]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.30-08.44.30:843][599]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.30-08.44.30:843][599]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.30-08.44.30:846][599]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.30-08.44.30:945][599]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.30-08.44.30:946][599]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.30-08.44.30:946][599]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.30-08.44.30:946][599]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.30-08.44.30:947][599]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.08.30-08.44.30:947][599]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.08.30-08.44.30:950][599]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.08.30-08.44.30:950][599]LogInit: FAudioDevice initialized with ID 11.
+[2023.08.30-08.44.30:950][599]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.08.30-08.44.30:950][599]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainMap'.
+[2023.08.30-08.44.30:950][599]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.08.30-08.44.30:955][599]LogLoad: Game class is 'GameModeBase'
+[2023.08.30-08.44.30:968][599]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.08.30-14.14.30
+[2023.08.30-08.44.30:968][599]LogWorld: Bringing up level for play took: 0.013642
+[2023.08.30-08.44.30:972][599]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.08.30-08.44.30:974][599]LogBlueprintUserMessages: [MainMap_C_3] Welcome to WreckItUp
+[2023.08.30-08.44.30:974][599]LogBlueprintUserMessages: [MainMap_C_3] Happy wrecking!!
+[2023.08.30-08.44.30:974][599]LogBlueprintUserMessages: [MainMap_C_3] 25
+[2023.08.30-08.44.30:974][599]PIE: Server logged in
+[2023.08.30-08.44.30:976][599]PIE: Play in editor total start time 0.194 seconds.
+[2023.08.30-08.44.33:115][699]LogBlueprintUserMessages: [MainMap_C_3] 24
+[2023.08.30-08.44.34:938][790]LogBlueprintUserMessages: [MainMap_C_3] 23
+[2023.08.30-08.44.35:420][815]LogBlueprintUserMessages: [MainMap_C_3] 22
+[2023.08.30-08.44.35:794][835]LogBlueprintUserMessages: [MainMap_C_3] 21
+[2023.08.30-08.44.36:162][854]LogBlueprintUserMessages: [MainMap_C_3] 20
+[2023.08.30-08.44.36:579][876]LogBlueprintUserMessages: [MainMap_C_3] 19
+[2023.08.30-08.44.37:648][930]LogBlueprintUserMessages: [MainMap_C_3] 18
+[2023.08.30-08.44.39:024][  2]LogBlueprintUserMessages: [MainMap_C_3] 17
+[2023.08.30-08.44.39:377][ 21]LogBlueprintUserMessages: [MainMap_C_3] 16
+[2023.08.30-08.44.40:018][ 53]LogBlueprintUserMessages: [MainMap_C_3] 15
+[2023.08.30-08.44.40:636][ 86]LogBlueprintUserMessages: [MainMap_C_3] 14
+[2023.08.30-08.44.41:742][143]LogBlueprintUserMessages: [MainMap_C_3] 13
+[2023.08.30-08.44.48:760][509]LogBlueprintUserMessages: [MainMap_C_3] 12
+[2023.08.30-08.44.49:227][533]LogBlueprintUserMessages: [MainMap_C_3] 11
+[2023.08.30-08.44.50:003][573]LogBlueprintUserMessages: [MainMap_C_3] 10
+[2023.08.30-08.44.50:582][604]LogBlueprintUserMessages: [MainMap_C_3] 9
+[2023.08.30-08.44.51:551][655]LogBlueprintUserMessages: [MainMap_C_3] 8
+[2023.08.30-08.44.52:561][708]LogBlueprintUserMessages: [MainMap_C_3] 7
+[2023.08.30-08.44.53:717][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.44.53:717][765]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.08.30-08.44.53:717][765]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.44.53:720][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.44.53:753][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.30-08.44.53:763][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.44.53:796][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.30-08.44.53:798][765]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.08.30-08.44.53:798][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.08.30-08.44.53:800][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.08.30-08.44.53:822][765]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2023.08.30-08.44.53:995][766]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.08.30-08.45.01:461][ 56]LogViewport: Scene viewport resized to 1248x845, mode Windowed.
+[2023.08.30-08.45.04:512][197]LogViewport: Scene viewport resized to 1253x845, mode Windowed.
+[2023.08.30-08.45.04:559][198]LogViewport: Scene viewport resized to 1259x845, mode Windowed.
+[2023.08.30-08.45.04:668][199]LogViewport: Scene viewport resized to 1289x845, mode Windowed.
+[2023.08.30-08.45.04:726][200]LogViewport: Scene viewport resized to 1297x845, mode Windowed.
+[2023.08.30-08.45.04:787][201]LogViewport: Scene viewport resized to 1308x845, mode Windowed.
+[2023.08.30-08.45.04:839][202]LogViewport: Scene viewport resized to 1319x845, mode Windowed.
+[2023.08.30-08.45.04:910][203]LogViewport: Scene viewport resized to 1337x845, mode Windowed.
+[2023.08.30-08.45.04:979][204]LogViewport: Scene viewport resized to 1360x845, mode Windowed.
+[2023.08.30-08.45.05:046][205]LogViewport: Scene viewport resized to 1374x845, mode Windowed.
+[2023.08.30-08.45.05:151][206]LogViewport: Scene viewport resized to 1378x845, mode Windowed.
+[2023.08.30-08.45.05:302][211]LogViewport: Scene viewport resized to 1380x845, mode Windowed.
+[2023.08.30-08.45.05:375][212]LogViewport: Scene viewport resized to 1396x845, mode Windowed.
+[2023.08.30-08.45.05:423][213]LogViewport: Scene viewport resized to 1412x845, mode Windowed.
+[2023.08.30-08.45.05:482][214]LogViewport: Scene viewport resized to 1416x845, mode Windowed.
+[2023.08.30-08.45.05:535][215]LogViewport: Scene viewport resized to 1418x845, mode Windowed.
+[2023.08.30-08.45.05:614][218]LogViewport: Scene viewport resized to 1419x845, mode Windowed.
+[2023.08.30-08.45.06:034][237]LogViewport: Scene viewport resized to 1420x845, mode Windowed.
+[2023.08.30-08.45.06:101][238]LogViewport: Scene viewport resized to 1416x845, mode Windowed.
+[2023.08.30-08.45.06:156][239]LogViewport: Scene viewport resized to 1409x845, mode Windowed.
+[2023.08.30-08.45.06:213][240]LogViewport: Scene viewport resized to 1405x845, mode Windowed.
+[2023.08.30-08.45.06:274][241]LogViewport: Scene viewport resized to 1402x845, mode Windowed.
+[2023.08.30-08.45.06:338][242]LogViewport: Scene viewport resized to 1398x845, mode Windowed.
+[2023.08.30-08.45.06:393][243]LogViewport: Scene viewport resized to 1395x845, mode Windowed.
+[2023.08.30-08.45.06:495][247]LogViewport: Scene viewport resized to 1394x845, mode Windowed.
+[2023.08.30-08.45.06:589][250]LogViewport: Scene viewport resized to 1392x845, mode Windowed.
+[2023.08.30-08.45.06:937][265]LogViewport: Scene viewport resized to 1391x845, mode Windowed.
+[2023.08.30-08.45.07:053][269]LogViewport: Scene viewport resized to 1392x845, mode Windowed.
+[2023.08.30-08.45.07:127][270]LogViewport: Scene viewport resized to 1408x845, mode Windowed.
+[2023.08.30-08.45.07:189][271]LogViewport: Scene viewport resized to 1409x845, mode Windowed.
+[2023.08.30-08.45.29:501][946]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2023.08.30-08.45.29:752][946]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.30-08.45.29:944][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.30-08.45.30:039][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.08.30-08.45.30:204][946]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.08.30-08.45.30:207][946]LogSavePackage: Moving '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Saved/MainMap8062C5D140D9507278F44D8813D53E75.tmp' to '../../../../../Udemybootcampunrealprojects/wreckitup/WreckItUp/Content/MainMap.umap'
+[2023.08.30-08.45.30:230][946]LogFileHelpers: Saving map 'MainMap' took 0.288
+[2023.08.30-08.45.30:244][946]LogFileHelpers: InternalPromptForCheckoutAndSave took 492 ms (total: 2.04 sec)
+[2023.08.30-08.45.30:249][946]AssetCheck: New page: Asset Save: MainMap
+[2023.08.30-08.45.30:249][946]LogContentValidation: Display: Validating /Script/Engine.World /Game/MainMap.MainMap
+[2023.08.30-08.45.32:668][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.08.30-08.45.32:671][ 54]LogStall: Shutdown...
+[2023.08.30-08.45.32:674][ 54]LogStall: Shutdown complete.
+[2023.08.30-08.45.32:749][ 54]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.45.32:749][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.45.32:866][ 54]LogSlate: Window 'WreckItUp - Unreal Editor' being destroyed
+[2023.08.30-08.45.33:243][ 55]Cmd: QUIT_EDITOR
+[2023.08.30-08.45.33:244][ 55]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.08.30-08.45.33:283][ 55]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.08.30-08.45.33:308][ 55]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.08.30-08.45.33:308][ 55]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.08.30-08.45.33:431][ 55]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.45.33:431][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.30-08.45.33:919][ 55]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.08.30-08.45.34:791][ 55]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.08.30-08.45.34:791][ 55]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.08.30-08.45.34:791][ 55]LogAudio: Display: Audio Device unregistered from world 'MainMap'.
+[2023.08.30-08.45.34:791][ 55]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2023.08.30-08.45.34:791][ 55]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.08.30-08.45.34:793][ 55]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.08.30-08.45.34:819][ 55]LogAudio: Display: Audio Device Manager Shutdown
+[2023.08.30-08.45.34:820][ 55]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2023.08.30-08.45.34:878][ 55]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.08.30-08.45.34:922][ 55]LogExit: Preparing to exit.
+[2023.08.30-08.45.35:596][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.35:609][ 55]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.08.30-08.45.37:842][ 55]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.45.37:844][ 55]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.45.37:846][ 55]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.45.37:848][ 55]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.45.37:850][ 55]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.45.37:852][ 55]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.08.30-08.45.38:444][ 55]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
